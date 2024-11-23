@@ -1,0 +1,29 @@
+.message-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  /* border-bottom: 1px solid #f0f0f0; */
+}
+
+.message-author {
+  font-weight: bold;
+}
+
+.message-text {
+  margin-right: 10px;
+}
+
+.message-time {
+  font-size: 0.8rem;
+  color: rgb(189, 183, 183);
+  margin-left: 10px;
+  white-space: nowrap;
+}
